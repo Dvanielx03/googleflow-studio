@@ -57,10 +57,9 @@ flowchart TB
         H[Audio y mezcla] --> I[Montaje y render] --> J[Bitácora y patrones]
     end
     PRE --> PRO --> POST
-    POST -. aprendizaje .-> PRE
 ```
 
-Cada etapa termina en una **puerta de aprobación**. Nada avanza sin la palabra explícita del usuario, y cada aprobación queda registrada con sus propias palabras en `BRIEF.md`.
+Al cerrar cada video, la bitácora alimenta los patrones probados que la siguiente preproducción lee antes de planificar. Cada etapa termina en una **puerta de aprobación**. Nada avanza sin la palabra explícita del usuario, y cada aprobación queda registrada con sus propias palabras en `BRIEF.md`.
 
 | Puerta | Qué se presenta | Qué autoriza |
 | --- | --- | --- |
