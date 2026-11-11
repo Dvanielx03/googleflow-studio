@@ -43,16 +43,20 @@ Este fragmento sale de un video de 31,8 s, una toma continua en primera persona 
 ## Cómo funciona
 
 ```mermaid
-flowchart LR
-    A[Brief y guion] --> B[Biblia visual]
-    B --> C[Anclas maestras]
-    C --> D[Storyboard y<br/>fotogramas clave]
-    D --> E[Muestra en Flow]
-    E --> F[Resto de clips]
-    F --> G[Control de calidad<br/>por clip]
-    G --> H[Audio y mezcla]
-    H --> I[Montaje y render]
-    I --> J[Bitácora y patrones]
+flowchart TB
+    subgraph PRE [Preproducción]
+        direction LR
+        A[Brief y guion] --> B[Biblia visual] --> C[Anclas maestras] --> D[Storyboard y<br/>fotogramas clave]
+    end
+    subgraph PRO [Producción en Flow]
+        direction LR
+        E[Muestra] --> F[Resto de clips] --> G[Control de calidad<br/>por clip]
+    end
+    subgraph POST [Postproducción]
+        direction LR
+        H[Audio y mezcla] --> I[Montaje y render] --> J[Bitácora y patrones]
+    end
+    PRE --> PRO --> POST
     J -. aprendizaje .-> B
 ```
 
