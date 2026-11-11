@@ -22,7 +22,8 @@ CARPETAS = [
     "02-anclas/relevos", "03-storyboard", "04-prompts", "05-clips/raw", "05-clips/aprobados", "06-audio",
     "07-qc", "08-montaje",
 ]
-PLANTILLAS = ["BRIEF.md", "01-biblia/biblia.json", "02-anclas/anclas.json", "03-storyboard/plan.json", "07-qc/REVISION.md"]
+PLANTILLAS = ["BRIEF.md", "01-biblia/biblia.json", "02-anclas/anclas.json", "03-storyboard/plan.json", "06-audio/sonido.json",
+              "07-qc/REVISION.md"]
 
 
 def main(argv=None) -> int:
