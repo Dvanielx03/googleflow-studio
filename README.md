@@ -57,7 +57,7 @@ flowchart TB
         H[Audio y mezcla] --> I[Montaje y render] --> J[Bitácora y patrones]
     end
     PRE --> PRO --> POST
-    J -. aprendizaje .-> B
+    POST -. aprendizaje .-> PRE
 ```
 
 Cada etapa termina en una **puerta de aprobación**. Nada avanza sin la palabra explícita del usuario, y cada aprobación queda registrada con sus propias palabras en `BRIEF.md`.
