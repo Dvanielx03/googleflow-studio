@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Credenciales y configuración local (nunca se suben)
+.env
+*.env
+.env.*
+!.env.example
+
+# Proyectos de video y material generado: viven fuera de la skill
+videos/
+*.mp4
+*.mov
+*.wav
+*.mp3
+!docs/media/*
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
