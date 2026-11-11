@@ -277,7 +277,10 @@ def main(argv=None) -> int:
     if args.cmd == "mezclar":
         salida = Path(args.salida)
         return mezclar(raiz, args.duracion, salida if salida.is_absolute() else raiz / salida)
-    print(uso_actual())
+    uso = uso_actual()
+    if not uso:
+        return 1
+    print(f"ElevenLabs: {uso['caracteres_usados']} de {uso['limite']} créditos usados en el periodo.")
     return 0
 
 
