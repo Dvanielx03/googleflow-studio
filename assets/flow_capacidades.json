@@ -1,0 +1,200 @@
+{
+  "verificado": "2026-11-11",
+  "nota": "Flow cambia cada pocas semanas. Antes de planificar, compara esta tabla con el selector de modelo de Flow y con https://support.google.com/flow/answer/16352836. Si algo cambió, actualiza este archivo y la fecha.",
+  "fuentes": [
+    "https://support.google.com/flow/answer/16352836",
+    "https://support.google.com/flow/answer/16353334",
+    "https://support.google.com/flow/answer/16935718",
+    "https://support.google.com/flow/answer/16935308",
+    "https://support.google.com/flow/answer/16729550",
+    "https://aistudio.google.com/docs/omni",
+    "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/video/video-gen-prompt-guide"
+  ],
+  "video": {
+    "omni-1.2": {
+      "nombre_ui": "Omni Flash 1.2",
+      "modos": [
+        "texto",
+        "frames",
+        "frames_ultimo",
+        "ingredientes",
+        "editar",
+        "extender"
+      ],
+      "duracion_min": 3,
+      "duracion_max": 10,
+      "duracion_max_pago": 15,
+      "duracion_max_frames_ultimo": 10,
+      "extender": {
+        "min": 3,
+        "max": 10,
+        "total_max": 30,
+        "refs_max": 3,
+        "requiere_pago": true,
+        "contexto_s": 10
+      },
+      "editar": {
+        "turnos_max": 3,
+        "subida_max_s": 30,
+        "segmento_max_s": 10,
+        "segmento_max_pago_s": 15
+      },
+      "refs_max": 6,
+      "refs_por_personaje": 3,
+      "personajes_max": 2,
+      "resoluciones": [
+        "360p",
+        "720p"
+      ],
+      "upscale": [
+        "1080p",
+        "4k (solo Ultra)"
+      ],
+      "audio_nativo": true,
+      "voz_referencia": true,
+      "multiplano_por_defecto": true,
+      "campo_negativo": false,
+      "idioma_prompt": "en",
+      "notas": "Por defecto crea varios planos: pide 'Single continuous shot. No scene cuts.' para un plano único. Acepta intervalos [0-3s]. Prompts de edición cortos + 'Keep everything else the same.' En el selector (Frames, plan PRO) la duración salta de 3 a 5 s: 4 s no existe (comprobado el 2026-11-11).",
+      "puntos_por_segundo_y_variante": {
+        "720p": 3,
+        "360p": 1,
+        "fuente": "selector de Flow, plan PRO, 2026-11-11: 5 s x4 a 720p = 60 puntos"
+      },
+      "duraciones_selector_frames": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "veo-3.1-lite": {
+      "nombre_ui": "Veo 3.1 - Lite",
+      "modos": [
+        "texto",
+        "frames",
+        "frames_ultimo",
+        "ingredientes"
+      ],
+      "duraciones": [
+        4,
+        6,
+        8
+      ],
+      "duraciones_ingredientes": [
+        8
+      ],
+      "refs_max": 3,
+      "resoluciones": [
+        "720p"
+      ],
+      "audio_nativo": true,
+      "voz_referencia": false,
+      "multiplano_por_defecto": false,
+      "campo_negativo": false,
+      "idioma_prompt": "en"
+    },
+    "veo-3.1-fast": {
+      "nombre_ui": "Veo 3.1 - Fast",
+      "modos": [
+        "texto",
+        "frames",
+        "frames_ultimo",
+        "ingredientes"
+      ],
+      "duraciones": [
+        4,
+        6,
+        8
+      ],
+      "duraciones_ingredientes": [
+        8
+      ],
+      "refs_max": 3,
+      "audio_nativo": true,
+      "campo_negativo": false,
+      "retiro": "2026-12-05",
+      "idioma_prompt": "en"
+    },
+    "veo-3.1-quality": {
+      "nombre_ui": "Veo 3.1 - Quality",
+      "modos": [
+        "texto",
+        "frames",
+        "frames_ultimo"
+      ],
+      "duraciones": [
+        4,
+        6,
+        8
+      ],
+      "refs_max": 0,
+      "audio_nativo": true,
+      "campo_negativo": false,
+      "retiro": "2026-12-05",
+      "idioma_prompt": "en"
+    },
+    "omni-1.1": {
+      "nombre_ui": "Gemini Omni Flash 1.1",
+      "modos": [
+        "texto",
+        "frames",
+        "frames_ultimo",
+        "ingredientes",
+        "editar"
+      ],
+      "duraciones": [
+        4,
+        6,
+        8,
+        10
+      ],
+      "refs_max": 6,
+      "audio_nativo": true,
+      "voz_referencia": true,
+      "multiplano_por_defecto": true,
+      "campo_negativo": false,
+      "retiro": "2026-12-05",
+      "idioma_prompt": "en"
+    }
+  },
+  "imagen": {
+    "nano-banana-2.1": {
+      "nombre_ui": "Nano Banana 2.1",
+      "creditos": 0,
+      "limite_diario": "400 sin plan / 1000 con plan (bolsa compartida con 2 Lite)",
+      "uso": "anclas, derivadas y fotogramas clave"
+    },
+    "nano-banana-2-lite": {
+      "nombre_ui": "Nano Banana 2 Lite",
+      "creditos": 0,
+      "limite_diario": "bolsa compartida con 2.1",
+      "uso": "pruebas rápidas y variantes"
+    },
+    "nano-banana-pro": {
+      "nombre_ui": "Nano Banana Pro",
+      "creditos": 0,
+      "limite_diario": "20 sin plan / 100 Plus-Pro / 500 Ultra",
+      "uso": "anclas maestras difíciles: manos, producto, composiciones con varias referencias"
+    },
+    "upscale": {
+      "2k_diario": 200,
+      "4k": "solo Ultra, 200 al día"
+    },
+    "nota_puntos": "Nano Banana (Pro, 2.1, 2 Lite) y la descarga en 2K: 0 puntos (comprobado en el selector, 2026-11-11)"
+  },
+  "personajes_flow": {
+    "imagenes_min": 1,
+    "imagenes_max": 2,
+    "voz": true,
+    "referencia": "@Nombre en el prompt; @me para el avatar propio",
+    "nota": "Un personaje de Flow agrupa imagen y voz. Úsalo para cada persona recurrente."
+  },
+  "escenas": {
+    "scenebuilder": "Add to Scene: ordenar, recortar, previsualizar y descargar la secuencia",
+    "guardar_fotograma": "Save frame: guarda el fotograma pausado como imagen para usarlo de ingrediente o fotograma inicial/final"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "proyecto": "cafe-origen",
+  "version": 1,
+  "brief_version": 1,
+  "formato": {"aspecto": "9:16", "duracion_objetivo": 15, "fps_entrega": 30},
+  "curva": {"reganches": [5.5], "pausas": []},
+  "planos": [
+    {
+      "id": "P01",
+      "escena": "E01",
+      "papel": "gancho",
+      "intencion": "Abrir con el gesto de levantar la bolsa a la luz: el público entiende que el producto es el protagonista y que alguien lo cuida.",
+      "modo": "frames",
+      "modelo": "omni-1.2",
+      "duracion": 8,
+      "salidas": 2,
+      "resolucion": "720p",
+      "uso": [0.4, 5.6],
+      "anclas": ["Valeria.A0-cuerpo", "TostaduriaSantaRita.A0", "BolsaOrigen.A0"],
+      "fotograma_inicial": "K01",
+      "fotograma_final": null,
+      "toma_unica": true,
+      "lugar": "@TostaduriaSantaRita",
+      "vestuario": {"@Valeria": "V1"},
+      "encuadre": "medium shot, eye-level",
+      "lente": "50mm lens, shallow depth of field",
+      "camara": "slow dolly in from medium shot to medium close-up",
+      "iluminacion": "L1",
+      "estado_inicial": "@Valeria stands behind the oak counter in the left third of the frame, both hands resting beside the closed coffee bag, looking down at it",
+      "accion": [
+        {"t": "0-3s", "en": "@Valeria lifts the coffee bag from the counter with both hands and turns it toward the window light."},
+        {"t": "3-8s", "en": "She brings the bag close to her face, breathes in the aroma, closes her eyes and smiles slightly."}
+      ],
+      "estado_final": "@Valeria holds the bag near her face with both hands, eyes closed, smiling, sunlight on the left side of her face",
+      "audio": {
+        "dialogo": null,
+        "sfx": "a soft paper crinkle when she lifts the bag",
+        "ambiente": null,
+        "musica": "none",
+        "no_oir": "music, voices, studio audience"
+      },
+      "excluir": ["other people", "readable text on the bag"],
+      "enlace": {"a": "P02", "tipo": "corte", "detalle": "Corte en la acción: ella cierra los ojos; P02 la muestra de perfil con la bolsa en la misma mano."},
+      "es": "Valeria levanta la bolsa hacia la luz del ventanal, la acerca, huele el café y sonríe con los ojos cerrados. La cámara se acerca despacio."
+    },
+    {
+      "id": "P02",
+      "escena": "E01",
+      "papel": "re-gancho",
+      "intencion": "Mostrar el origen del aroma: la tostadora girando detrás de ella conecta producto y oficio.",
+      "modo": "frames",
+      "modelo": "omni-1.2",
+      "duracion": 6,
+      "salidas": 2,
+      "resolucion": "720p",
+      "uso": [0.3, 5.0],
+      "anclas": ["Valeria.A1-perfil", "TostaduriaSantaRita.A0", "BolsaOrigen.A0"],
+      "fotograma_inicial": "K02",
+      "fotograma_final": null,
+      "toma_unica": true,
+      "lugar": "@TostaduriaSantaRita",
+      "vestuario": {"@Valeria": "V1"},
+      "encuadre": "medium close-up, profile, eye-level",
+      "lente": "85mm lens, shallow depth of field, the copper roaster softly out of focus behind her",
+      "camara": "slow rack focus from her profile to the copper roaster in the background",
+      "iluminacion": "L1",
+      "estado_inicial": "@Valeria in left profile in the right half of the frame, holding the coffee bag at chest height with both hands, eyes open, the copper roaster blurred in the background center",
+      "accion": [
+        {"t": "0-2s", "en": "@Valeria opens her eyes and lowers the bag slightly."},
+        {"t": "2-6s", "en": "The focus shifts from her profile to the copper roaster drum turning slowly in the background while she stays still."}
+      ],
+      "estado_final": "The copper roaster is in sharp focus turning slowly; @Valeria is a soft silhouette in the right foreground holding the bag",
+      "audio": {
+        "dialogo": null,
+        "sfx": "the low rumble of the roaster drum growing slightly louder",
+        "ambiente": null,
+        "musica": "none",
+        "no_oir": "music, voices"
+      },
+      "excluir": ["other people", "readable text"],
+      "enlace": {"a": "P03", "tipo": "fundido", "duracion": 0.5, "detalle": "Fundido corto del cobre de la tostadora al terracota de la etiqueta."},
+      "es": "Valeria de perfil baja la bolsa; el foco pasa de su cara a la tostadora de cobre que gira al fondo."
+    },
+    {
+      "id": "P03",
+      "escena": "E02",
+      "papel": "cierre",
+      "intencion": "Cerrar en el producto, quieto y nítido, con espacio para el nombre y la llamada que se ponen en el montaje.",
+      "modo": "frames_ultimo",
+      "modelo": "omni-1.2",
+      "duracion": 6,
+      "salidas": 2,
+      "resolucion": "720p",
+      "uso": [0.0, 5.0],
+      "anclas": ["BolsaOrigen.A0", "TostaduriaSantaRita.A0"],
+      "fotograma_inicial": "K03",
+      "fotograma_final": "K03f",
+      "toma_unica": true,
+      "lugar": "@TostaduriaSantaRita",
+      "vestuario": {},
+      "encuadre": "close-up product shot, slightly high angle",
+      "lente": "100mm macro lens, shallow depth of field",
+      "camara": "slow arc shot around the bag from the left to the front",
+      "iluminacion": "L1",
+      "estado_inicial": "The coffee bag stands on the oak counter in three-quarter view, roasted beans scattered around its base, sunbeams crossing from the left",
+      "accion": [
+        {"t": "0-6s", "en": "The camera arcs slowly around the standing coffee bag until the plain terracotta label faces the camera; a few roasted beans settle beside it."}
+      ],
+      "estado_final": "The coffee bag seen straight from the front, centered in the lower half of the frame, plain terracotta label facing the camera, empty warm space above it",
+      "audio": {
+        "dialogo": null,
+        "sfx": "two or three coffee beans gently clicking on the wood",
+        "ambiente": null,
+        "musica": "none",
+        "no_oir": "music, voices"
+      },
+      "excluir": ["hands", "people", "readable text or letters on the label"],
+      "enlace": {"a": null, "tipo": "cierre", "detalle": "Se congela 1 s en el último fotograma con el nombre del producto (montaje)."},
+      "es": "La cámara rodea la bolsa de café hasta dejar la etiqueta de frente, con espacio arriba para el nombre."
+    }
+  ]
+}

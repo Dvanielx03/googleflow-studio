@@ -1,0 +1,114 @@
+{
+  "anclas": [
+    {
+      "id": "Valeria.A0",
+      "tipo": "personaje",
+      "entidad": "@Valeria",
+      "nivel": 0,
+      "variante": "retrato",
+      "vestuario": "V1",
+      "padres": [],
+      "archivo": "02-anclas/personajes/Valeria.A0.png",
+      "modelo": "nano-banana-pro",
+      "aspecto": "3:4",
+      "estado": "aprobada"
+    },
+    {
+      "id": "Valeria.A0-cuerpo",
+      "tipo": "personaje",
+      "entidad": "@Valeria",
+      "nivel": 0,
+      "variante": "cuerpo",
+      "vestuario": "V1",
+      "padres": [],
+      "archivo": "02-anclas/personajes/Valeria.A0-cuerpo.png",
+      "modelo": "nano-banana-pro",
+      "aspecto": "9:16",
+      "estado": "aprobada"
+    },
+    {
+      "id": "Valeria.A1-perfil",
+      "tipo": "personaje",
+      "entidad": "@Valeria",
+      "nivel": 1,
+      "variante": "perfil",
+      "vestuario": "V1",
+      "padres": ["Valeria.A0"],
+      "cambio_en": "turn her head to a clean left profile view, eyes looking ahead",
+      "es": "Valeria de perfil izquierdo, misma cara, peinado y ropa que la maestra.",
+      "archivo": "02-anclas/personajes/Valeria.A1-perfil.png",
+      "modelo": "nano-banana-2.1",
+      "aspecto": "3:4",
+      "estado": "aprobada"
+    },
+    {
+      "id": "TostaduriaSantaRita.A0",
+      "tipo": "lugar",
+      "entidad": "@TostaduriaSantaRita",
+      "nivel": 0,
+      "variante": "general",
+      "padres": [],
+      "archivo": "02-anclas/lugares/TostaduriaSantaRita.A0.png",
+      "modelo": "nano-banana-2.1",
+      "aspecto": "9:16",
+      "estado": "aprobada"
+    },
+    {
+      "id": "BolsaOrigen.A0",
+      "tipo": "producto",
+      "entidad": "@BolsaOrigen",
+      "nivel": 0,
+      "variante": "packshot",
+      "padres": [],
+      "archivo": "02-anclas/productos/BolsaOrigen.A0.png",
+      "modelo": "nano-banana-pro",
+      "aspecto": "1:1",
+      "estado": "aprobada"
+    },
+    {
+      "id": "K01",
+      "tipo": "fotograma",
+      "nivel": 2,
+      "plano": "P01",
+      "padres": ["Valeria.A0-cuerpo", "TostaduriaSantaRita.A0", "BolsaOrigen.A0"],
+      "archivo": "02-anclas/fotogramas/K01.png",
+      "modelo": "nano-banana-pro",
+      "aspecto": "9:16",
+      "estado": "aprobada"
+    },
+    {
+      "id": "K02",
+      "tipo": "fotograma",
+      "nivel": 2,
+      "plano": "P02",
+      "padres": ["Valeria.A1-perfil", "TostaduriaSantaRita.A0", "BolsaOrigen.A0"],
+      "archivo": "02-anclas/fotogramas/K02.png",
+      "modelo": "nano-banana-pro",
+      "aspecto": "9:16",
+      "estado": "aprobada"
+    },
+    {
+      "id": "K03",
+      "tipo": "fotograma",
+      "nivel": 2,
+      "plano": "P03",
+      "padres": ["BolsaOrigen.A0", "TostaduriaSantaRita.A0"],
+      "archivo": "02-anclas/fotogramas/K03.png",
+      "modelo": "nano-banana-pro",
+      "aspecto": "9:16",
+      "estado": "aprobada"
+    },
+    {
+      "id": "K03f",
+      "tipo": "fotograma",
+      "nivel": 2,
+      "plano": "P03",
+      "final": true,
+      "padres": ["BolsaOrigen.A0", "TostaduriaSantaRita.A0"],
+      "archivo": "02-anclas/fotogramas/K03f.png",
+      "modelo": "nano-banana-pro",
+      "aspecto": "9:16",
+      "estado": "aprobada"
+    }
+  ]
+}

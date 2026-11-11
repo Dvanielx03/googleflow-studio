@@ -1,0 +1,45 @@
+{
+  "proyecto": "{{NOMBRE}}",
+  "version": 1,
+  "estilo": {
+    "lenguaje": "TODO: realista cinematográfico, animación 3D estilizada, stop-motion…",
+    "prefijo_en": "TODO: one concrete English sentence that opens every prompt (medium, film, grain, contrast)",
+    "es": "TODO: el estilo en una frase en español"
+  },
+  "paleta": [
+    {"rol": "dominante", "hex": "#000000", "nombre_en": "TODO"},
+    {"rol": "acento", "hex": "#000000", "nombre_en": "TODO"},
+    {"rol": "sombra", "hex": "#000000", "nombre_en": "TODO"}
+  ],
+  "iluminaciones": {
+    "L1": {"en": "TODO: source, direction, softness, warmth in words, contrast", "es": "TODO"}
+  },
+  "texturas_en": [],
+  "personajes": [
+    {
+      "handle": "@NombrePersonaje",
+      "identidad_en": "TODO: age, build, skin, face shape, eyes, nose, hair (color, length, style), 2-3 distinctive marks",
+      "vestuario": {"V1": "TODO: garments, colors, materials, condition"},
+      "voz": "TODO",
+      "no_cambiar": ["TODO"],
+      "es": "TODO"
+    }
+  ],
+  "lugares": [
+    {
+      "handle": "@NombreLugar",
+      "disposicion_en": "TODO: fixed layout paragraph: size, walls, door, window, furniture positions, where light enters",
+      "eje": "TODO: desde dónde mira la cámara principal y qué queda a cada lado",
+      "luz_base": "L1",
+      "es": "TODO"
+    }
+  ],
+  "productos": [],
+  "texto": {"politica": "ninguno", "nota": "Rótulos, logos y subtítulos en el montaje."},
+  "audio": {
+    "politica": "post",
+    "narracion": "TODO",
+    "musica": "TODO",
+    "ambiente_por_lugar": {}
+  }
+}

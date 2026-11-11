@@ -1,0 +1,8 @@
+{
+  "proyecto": "{{NOMBRE}}",
+  "version": 1,
+  "brief_version": 1,
+  "formato": {"aspecto": "{{ASPECTO}}", "duracion_objetivo": {{DURACION}}, "fps_entrega": 30},
+  "curva": {"reganches": [], "pausas": []},
+  "planos": []
+}

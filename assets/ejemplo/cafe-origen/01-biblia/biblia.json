@@ -1,0 +1,75 @@
+{
+  "proyecto": "cafe-origen",
+  "version": 1,
+  "estilo": {
+    "lenguaje": "Realista cinematográfico, documental cálido",
+    "prefijo_en": "Photorealistic cinematic footage, shot on 35mm film, natural skin texture, soft film grain, gentle contrast, warm documentary look",
+    "es": "Imagen real de cine documental: película de 35 mm, grano suave, piel natural, contraste amable y tono cálido."
+  },
+  "paleta": [
+    {"rol": "dominante", "hex": "#3B2A20", "nombre_en": "dark roasted brown"},
+    {"rol": "luz", "hex": "#E9B872", "nombre_en": "warm honey amber"},
+    {"rol": "acento", "hex": "#B5532E", "nombre_en": "burnt terracotta"},
+    {"rol": "sombra", "hex": "#2E3B36", "nombre_en": "deep olive green"},
+    {"rol": "neutro", "hex": "#EFE6D8", "nombre_en": "warm off-white"}
+  ],
+  "iluminaciones": {
+    "L1": {
+      "en": "warm early morning sunlight entering through a large window on the left side of the frame, soft shadows falling to the right, light haze in the air catching the sunbeams",
+      "es": "Sol cálido de primera hora por un ventanal a la izquierda, sombras suaves a la derecha, bruma leve en los haces de luz."
+    },
+    "L2": {
+      "en": "soft overcast daylight from the open doorway behind the camera, even and gentle, warm practical bulbs glowing in the background",
+      "es": "Luz de día nublado desde la puerta abierta detrás de cámara, pareja y suave, bombillas cálidas encendidas al fondo."
+    }
+  },
+  "texturas_en": [
+    "worn oak counter with visible grain",
+    "burlap coffee sacks",
+    "brushed copper drum roaster",
+    "matte kraft paper"
+  ],
+  "personajes": [
+    {
+      "handle": "@Valeria",
+      "identidad_en": "a Colombian woman in her early thirties, medium build, warm olive skin, oval face with high cheekbones, dark brown almond-shaped eyes, straight nose, thick dark brown hair tied in a low bun with a few loose strands framing her face, a small mole above the right corner of her lip",
+      "vestuario": {
+        "V1": "a faded olive green canvas apron over a cream linen shirt with the sleeves rolled up to the elbows, a thin silver bracelet on her left wrist"
+      },
+      "voz": "Voz femenina cálida y serena, español colombiano neutro (voz de narración del canal)",
+      "no_cambiar": ["lunar sobre la comisura derecha", "moño bajo con mechones sueltos", "delantal verde oliva"],
+      "es": "Valeria, tostadora de café de unos 30 años, rasgos cálidos y un lunar junto al labio."
+    }
+  ],
+  "lugares": [
+    {
+      "handle": "@TostaduriaSantaRita",
+      "disposicion_en": "a small artisanal coffee roastery with whitewashed brick walls; a long worn oak counter runs along the left side; a brushed copper drum roaster stands against the back wall in the center; burlap coffee sacks are stacked to the right of the roaster; a large wooden-framed window on the left wall lets in the light; open wooden shelves with glass jars of coffee beans hang above the counter",
+      "eje": "La cámara principal mira hacia la pared del fondo; el ventanal queda siempre a la izquierda del cuadro y la tostadora al fondo.",
+      "luz_base": "L1",
+      "es": "Tostaduría pequeña: pared de ladrillo encalado, mostrador de roble a la izquierda, tostadora de cobre al fondo, sacos a la derecha y ventanal a la izquierda."
+    }
+  ],
+  "productos": [
+    {
+      "handle": "@BolsaOrigen",
+      "nombre_en": "the coffee bag",
+      "descripcion_en": "a stand-up coffee bag about 22 cm tall and 13 cm wide, matte kraft paper with a flat bottom, folded top closed with a thin copper tin tie, a plain rectangular burnt terracotta label in the center of the front",
+      "texto_real": "ORIGEN · Huila · 250 g",
+      "foto_real": null,
+      "es": "Bolsa de café de papel kraft mate con cierre de alambre cobrizo y etiqueta terracota."
+    }
+  ],
+  "texto": {
+    "politica": "ninguno",
+    "nota": "El nombre del producto y los rótulos se ponen en el montaje."
+  },
+  "audio": {
+    "politica": "post",
+    "narracion": "Voz en off de Valeria, una sola toma.",
+    "musica": "Guitarra acústica cálida, tempo lento, en postproducción.",
+    "ambiente_por_lugar": {
+      "@TostaduriaSantaRita": "the soft hum and slow rotation of a coffee roaster drum, faint street noise far away"
+    }
+  }
+}
