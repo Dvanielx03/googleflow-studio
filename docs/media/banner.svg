@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">GoogleFlow Studio</title>
+  <desc id="d">Skill de producción audiovisual para Google Flow: de la idea al video final.</desc>
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1012"/>
+      <stop offset="0.55" stop-color="#612628"/>
+      <stop offset="1" stop-color="#823438"/>
+    </linearGradient>
+    <linearGradient id="brillo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8c9a8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#e8c9a8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#e8c9a8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#cielo)"/>
+  <rect x="0" y="236" width="1200" height="64" fill="#401a15" opacity="0.55"/>
+  <rect x="64" y="226" width="1072" height="1.5" fill="url(#brillo)"/>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" fill="#f4e6dc">
+    <text x="64" y="118" font-size="54" font-weight="600" letter-spacing="0.5">GoogleFlow Studio</text>
+    <text x="66" y="160" font-size="21" fill="#e2c3b4" opacity="0.92">De la idea al video final con Google Flow, sin perder la identidad de nada.</text>
+    <text x="66" y="272" font-size="15" fill="#d8b3a4" letter-spacing="2.2">BRIEF · BIBLIA · ANCLAS · PLANOS · FLOW · CONTROL DE CALIDAD · MONTAJE</text>
+  </g>
+
+  <g transform="translate(860 52)" fill="none" stroke="#f4e6dc" stroke-opacity="0.85">
+    <rect x="0" y="0" width="64" height="112" rx="7" stroke-width="2"/>
+    <rect x="84" y="0" width="64" height="112" rx="7" stroke-width="2" stroke-opacity="0.6"/>
+    <rect x="168" y="0" width="64" height="112" rx="7" stroke-width="2" stroke-opacity="0.38"/>
+    <circle cx="32" cy="56" r="13" fill="#2b4fc4" stroke="none"/>
+    <circle cx="116" cy="56" r="13" fill="#2b4fc4" fill-opacity="0.7" stroke="none"/>
+    <circle cx="200" cy="56" r="13" fill="#2b4fc4" fill-opacity="0.45" stroke="none"/>
+    <path d="M64 56 H84 M148 56 H168" stroke-width="2" stroke-dasharray="3 4"/>
+  </g>
+</svg>
