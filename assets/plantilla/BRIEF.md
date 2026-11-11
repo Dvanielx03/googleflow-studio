@@ -1,6 +1,6 @@
 # Brief · {{NOMBRE}}
 
-Versión: 1 · Fecha: {{FECHA}} · Skill: workflow-skill
+Versión: 1 · Fecha: {{FECHA}} · Skill: googleflow-studio
 
 ## Idea aprobada
 

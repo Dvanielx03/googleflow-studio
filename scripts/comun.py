@@ -1,4 +1,4 @@
-"""Utilidades compartidas por los scripts de workflow-skill (solo biblioteca estándar)."""
+"""Utilidades compartidas por los scripts de GoogleFlow Studio (solo biblioteca estándar)."""
 from __future__ import annotations
 
 import json

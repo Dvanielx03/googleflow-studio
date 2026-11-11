@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""probar · prueba de regresión de los scripts de workflow-skill con material sintético.
+"""probar · prueba de regresión de los scripts de GoogleFlow Studio con material sintético.
 
 Uso: python probar.py [--conservar]
 
@@ -42,7 +42,7 @@ def comprobar(nombre: str, condicion: bool, detalle: str = ""):
 def main() -> int:
     utf8_stdout()
     conservar = "--conservar" in sys.argv
-    tmp = Path(tempfile.mkdtemp(prefix="workflow-skill-"))
+    tmp = Path(tempfile.mkdtemp(prefix="googleflow-studio-"))
     p = tmp / "proyecto"
     try:
         print(f"Carpeta de prueba: {tmp}")

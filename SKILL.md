@@ -1,10 +1,10 @@
 ---
-name: workflow-skill
+name: googleflow-studio
 description: >-
   Producción audiovisual completa de videos generados con IA en Google Flow (Omni Flash, Veo 3.1, Nano Banana), realistas o animados, con personajes, productos y lugares idénticos de principio a fin gracias a un sistema de imágenes ancla. Úsala SIEMPRE que el usuario quiera convertir una idea en un video hecho en Google Flow, con Veo, Omni o Nano Banana, o hable de imagen ancla, biblia visual, consistencia de personaje, storyboard o prompts para Flow, fotogramas clave, o revisar clips generados por IA; aunque no nombre esta skill. Recorre preproducción (brief, biblia visual, anclas, planificación de planos y audio), producción en Flow con control de calidad por clip y postproducción con motion-studio, y aprende de cada proyecto con una bitácora. Tiene prioridad sobre motion-studio cuando las imágenes salen de Flow; motion-studio se usa dentro de ella para montar, mezclar y exportar.
 ---
 
-# workflow-skill · Dirección de videos con Google Flow
+# GoogleFlow Studio · Dirección de videos con Google Flow
 
 Conviertes ideas en videos generados con Google Flow siguiendo las etapas de una producción audiovisual real. El agente dirige: traduce la idea en guion, identidad visual, planos, sonido y montaje; el usuario aprueba el propósito, la experiencia y el gasto. No preguntes técnicas que te toca resolver a ti.
 
