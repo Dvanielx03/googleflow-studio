@@ -17,9 +17,9 @@ Esta skill se apoya en **motion-studio** (instalada en `~/.claude/skills/motion-
 Detalle en `references/10-reglas-de-produccion.md`.
 
 1. **Análisis de referencia antes de generar:** recorre la referencia segundo a segundo (encuadres, primera persona, cámara, ritmo, música, efectos, duración, transiciones y cuerpo del espectador) y escribe `REFERENCIA.md`. Traslada su lenguaje, no solo su tema.
-2. **Continuidad visual:** cada clip continúa al anterior. Su fotograma inicial es el último fotograma aprobado del anterior (relevo), con un fotograma clave como final cuando hay que volver a la identidad aprobada. La toma no debe notarse cortada.
+2. **Continuidad visual:** cada clip continúa al anterior. Su fotograma inicial es el último fotograma aprobado del anterior (relevo) o un fotograma clave, con un fotograma clave como final cuando hay que volver a la identidad aprobada. El inicio y el fin de un mismo clip comparten luz y fondo (se derivan uno del otro), y un clip no recorre mucha distancia y cambia la postura del personaje a la vez: se divide con un fotograma intermedio. La toma no debe notarse cortada.
 3. **Escenas de ~15 s** divididas en clips de 4–6 s, con la duración ajustada a la historia.
-4. **Audio:** voces y efectos con ElevenLabs (`scripts/elevenlabs.py`); música y mezcla en el montaje y el render final. El audio de Flow no entra en la mezcla.
+4. **Audio:** los sonidos de Flow se conservan si el usuario los aprueba; ElevenLabs cubre lo que falte (`scripts/elevenlabs.py`); la música entra desde su inicio y suena hasta el final en la mezcla del render. **Voces: se pregunta antes**, por defecto una sola frase corta con el tono cuidado, y se entrega una muestra solo de audio para auditar antes de mezclarla.
 5. **Auditoría obligatoria:** cada clip se revisa y se presenta al usuario. No se une nada sin su aprobación explícita, clip por clip.
 
 ## Antes de empezar
