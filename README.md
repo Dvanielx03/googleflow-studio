@@ -2,10 +2,10 @@
 
 <img src="docs/media/banner.svg" alt="GoogleFlow Studio" width="100%">
 
-[![Licencia MIT](https://img.shields.io/badge/licencia-MIT-612628?style=flat-square)](LICENSE)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-2b4fc4?style=flat-square)](requirements.txt)
-[![FFmpeg](https://img.shields.io/badge/FFmpeg-requerido-401a15?style=flat-square)](https://ffmpeg.org/)
-[![Skill de Claude Code](https://img.shields.io/badge/Claude%20Code-skill-823438?style=flat-square)](SKILL.md)
+[![Licencia MIT](https://img.shields.io/badge/licencia-MIT-3b6fd8?style=flat-square)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-1f8f84?style=flat-square)](requirements.txt)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-requerido-b9821f?style=flat-square)](https://ffmpeg.org/)
+[![Skill de Claude Code](https://img.shields.io/badge/Claude%20Code-skill-d2592a?style=flat-square)](SKILL.md)
 
 **Una skill de producción audiovisual que convierte una idea en un video hecho con Google Flow,<br>con personajes, lugares y productos idénticos de principio a fin.**
 
@@ -38,7 +38,7 @@ Este fragmento sale de un video de 31,8 s, una toma continua en primera persona 
 | Sonoridad final | −14,1 LUFS · −1,7 dBTP | −14,1 LUFS · −1,2 dBTP |
 
 > [!NOTE]
-> Los dos videos de demostración son contenido de fans sin fines comerciales. Los personajes de *The Backyardigans* pertenecen a Nickelodeon y los de *Club Penguin*, a Disney. Google Flow, Veo y Nano Banana son marcas de Google. Este proyecto no tiene relación con ninguna de esas empresas.
+> Los dos videos de demostración son contenido de fans sin fines comerciales. Los personajes de *The Backyardigans* pertenecen a Nickelodeon y los de *Club Penguin*, a Disney. Google Flow, Veo y Nano Banana son marcas de Google, y su símbolo se muestra solo para indicar con qué herramienta funciona la skill. Este proyecto es independiente y no tiene relación con ninguna de esas empresas.
 
 ## Cómo funciona
 
