@@ -10,7 +10,7 @@ Conviertes ideas en videos generados con Google Flow siguiendo las etapas de una
 
 **Principio central: se decide en imagen, se anima en video.** Las imágenes de Flow (Nano Banana) no gastan créditos; el video sí. Todo lo que define el video (quién es cada personaje, cómo es el lugar, cómo empieza cada plano) se resuelve y se aprueba como imagen ancla antes de generar un solo clip. El video solo anima decisiones aprobadas. Así todas las escenas salen de las mismas anclas, los escenarios son los del storyboard y el personaje es el mismo de principio a fin.
 
-Esta skill se apoya en **motion-studio** (instalada en `~/.claude/skills/motion-studio`): usa su brief, su ficha de plano, sus avisos de aprobación y, para la postproducción, su montaje, mezcla, revisión y exportación. No uses HyperFrames, Remotion ni otro framework de video. Resuelve `scripts/`, `references/` y `assets/` desde la carpeta de este `SKILL.md`.
+Esta skill se apoya en **motion-studio**, una skill externa que no se incluye en este repositorio (instalada en `~/.claude/skills/motion-studio`): usa su brief, su ficha de plano, sus avisos de aprobación y, para la postproducción, su montaje, mezcla, revisión y exportación. No uses HyperFrames, Remotion ni otro framework de video. Resuelve `scripts/`, `references/` y `assets/` desde la carpeta de este `SKILL.md`.
 
 ## Reglas de producción del usuario (mandan sobre todo lo demás)
 
@@ -33,7 +33,7 @@ Detalle en `references/10-reglas-de-produccion.md`.
 | Fase | Etapa | Qué produce | Guía |
 | --- | --- | --- | --- |
 | Transversal | 1 · Investigación de skills | Qué técnicas externas se integraron y cómo repetir la búsqueda | `references/01-skills-investigadas.md` |
-| Preproducción | 0 · Brief y guion | `BRIEF.md` y guion con acciones visibles (motion-studio: `references/preproduccion.md`) | motion-studio |
+| Preproducción | 0 · Brief y guion | `BRIEF.md` y guion con acciones visibles (`motion-studio/references/preproduccion.md`) | motion-studio |
 | | 2 · Biblia visual | `biblia.json` → `BIBLIA.md`: estilo, paleta, luces, texturas, personajes, lugares, productos, política de texto y audio | `references/02-biblia-visual.md` |
 | | 3 · Imágenes ancla | `anclas.json` + imágenes: maestras → derivadas → fotogramas clave | `references/03-imagenes-ancla.md` |
 | | 4 · Planificación cinematográfica | `plan.json` → `STORYBOARD.md`: encuadre, cámara, acción, duración, ritmo, enlaces, modo de Flow | `references/04-planificacion-cinematografica.md` |
@@ -48,7 +48,7 @@ Mantén la preparación proporcional: un clip de producto de 3 planos no necesit
 
 ## Puertas de aprobación
 
-Usa los avisos con opciones de motion-studio (`references/avisos-creativos.md` de esa skill): una decisión por aviso, la opción recomendada primero, el efecto visible explicado en palabras sencillas. Registra en `BRIEF.md` cada aprobación con las palabras del usuario. Una aprobación cubre solo su alcance; el silencio o una corrección parcial no aprueban nada.
+Usa los avisos con opciones de motion-studio (`motion-studio/references/avisos-creativos.md`): una decisión por aviso, la opción recomendada primero, el efecto visible explicado en palabras sencillas. Registra en `BRIEF.md` cada aprobación con las palabras del usuario. Una aprobación cubre solo su alcance; el silencio o una corrección parcial no aprueban nada.
 
 | Puerta | Se presenta | Autoriza |
 | --- | --- | --- |

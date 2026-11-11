@@ -2,7 +2,7 @@
 
 Cada plano se decide completo antes de generarlo: encuadre, cámara, acción, duración, ritmo, sonido y cómo enlaza con el siguiente. Un clip de Flow cuesta créditos y tiempo; un plano mal pensado no se arregla regenerándolo cinco veces.
 
-Fuente de verdad: `03-storyboard/plan.json`. `python scripts/flowprompt.py storyboard` genera `03-storyboard/STORYBOARD.md` para revisar con el usuario. La ficha amplía la de motion-studio (`references/preproduccion.md` de esa skill): conserva sus seis campos y añade los de Flow.
+Fuente de verdad: `03-storyboard/plan.json`. `python scripts/flowprompt.py storyboard` genera `03-storyboard/STORYBOARD.md` para revisar con el usuario. La ficha amplía la de motion-studio (`motion-studio/references/preproduccion.md` de esa skill): conserva sus seis campos y añade los de Flow.
 
 ## Ficha del plano
 

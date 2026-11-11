@@ -7,7 +7,7 @@ Cinco reglas fijadas por el usuario el 11 de noviembre de 2026, tras la primera 
 La primera iteración falló aquí. Se tomaron de la referencia el tema y el color, pero no su lenguaje: era **una toma continua en primera persona** y se planificaron planos cortados.
 
 1. **Mira el video entero y mídelo.** Duración exacta, resolución y relación de aspecto.
-2. **Recórrelo segundo a segundo.** En el navegador, con el video en pausa, salta a cada instante (`video.currentTime = t`, esperar `seeked`) y captura el fotograma. Con una copia local, usa `scripts/referencia.py` de motion-studio.
+2. **Recórrelo segundo a segundo.** En el navegador, con el video en pausa, salta a cada instante (`video.currentTime = t`, esperar `seeked`) y captura el fotograma. Con una copia local, usa `motion-studio/scripts/referencia.py`.
 3. **Escribe `REFERENCIA.md` en el proyecto** con una tabla por tramo: tiempo, encuadre y punto de vista, movimiento de cámara, acción, **cuerpo del espectador** (manos, piernas), luz, sonido y transición.
 4. **Extrae el lenguaje, no el tema:**
    - número de cortes (cero es una decisión de estilo);
