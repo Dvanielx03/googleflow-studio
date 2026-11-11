@@ -1,0 +1,8 @@
+# Dependencias de Python de GoogleFlow Studio
+# Necesarias para todos los scripts (además de FFmpeg y FFprobe en el PATH).
+numpy>=1.24
+Pillow>=10.0
+
+# Opcional: detección de caras en qc_clips.py --caras.
+# OpenCV 5 retiró el detector que se usa, por eso se fija la versión 4.
+# opencv-python-headless<5
